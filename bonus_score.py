@@ -11,7 +11,7 @@ else:
     
 if num % 2 == 0:
     bonus = bonus + 1
-elif num % 5 == 0 and num % 2 != 0:
+elif num % 5 == 0 and num % 2 != 0:          #num % 10 == 5
     bonus = bonus + 2
 
 print(bonus)
