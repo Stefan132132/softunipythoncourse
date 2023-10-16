@@ -25,7 +25,7 @@ elif math_operator == "/":
         print(f"Cannot divide {num1} by zero")
     else:
         sum = num1 / num2
-        print(f"{num1} / {num2} = {sum}")
+        print(f"{num1} / {num2} = {sum:.2f}")
 elif math_operator == "%":
     if num2 == 0:
         print(f"Cannot divide {num1} by zero")

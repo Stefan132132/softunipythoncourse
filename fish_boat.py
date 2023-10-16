@@ -6,9 +6,6 @@ rent_season_spring = 3000
 rent_season_summer_autumn = 4200
 rent_season_winter = 2600
 
-money_left = 0
-money_needed = 0
-discount_rent = 0
 
 if(season == "Spring"):
     if(fishers <= 6):
